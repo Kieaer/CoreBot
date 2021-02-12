@@ -2,7 +2,7 @@ apply plugin: 'java'
 apply plugin: 'maven'
 
 project.ext.mainClassName = "corebot.CoreBot"
-sourceCompatibility = targetCompatibility = 14
+sourceCompatibility = targetCompatibility = 8
 version = '1.0'
 
 sourceSets.main.java.srcDirs = ["src/"]
